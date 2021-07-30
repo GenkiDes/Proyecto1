@@ -1,0 +1,178 @@
+*{
+    
+    cursor: url(img/Cursor4.PNG), auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(fondos/Fondo3.jpg);
+	background-color: blue;
+	/*background-image: url(img/Transporte.gif);*/
+     font-family:"Segoe UI";;
+}
+
+.container{
+	width: 1100px;
+	background-color: #0db8b1;
+	margin: auto;
+	border-radius: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    height: 100%;
+}
+header{
+    background-image: url(fondos/Fondo6.png);
+    height: 180px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#g1{
+    margin-top: 13px;
+    width: 152px;
+    height: 154px;
+    float: left;
+    margin-left: 46px;
+}
+
+header h1{
+font-size: 43px;
+text-align: center;
+margin-top: 50px;
+float:right;
+margin-right: 140px;
+margin-left: 210px;
+position: absolute;
+}
+
+
+
+
+
+/*CONTENIDO PARA EL TEXTO*/
+#texto{
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: "Segoe UI";
+    
+}
+
+
+.nav{
+    margin: auto;
+    width: 100%x;
+    padding: 0px;
+    font-family: "Segoe UI";
+
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #0db8b1;
+    color: white;
+    text-decoration: none;
+    padding: 24px 10px;
+    display: block;
+}
+
+.nav a{
+    width: 200px;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    background-color: #58D1CD;
+    box-shadow: 0 0 20px 2px #58D1CD;
+    color: black;
+}
+
+.menu > li{
+    float: left;
+}
+
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+footer{
+    background-image: url(fondos/Fondo6.png);
+    height: 170px ;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+footer h6{
+    font-size: 17px;
+    text-align: center;
+    padding: 2px;
+    font-style: italic;
+}
+
+#texto{
+	font-family: "Segoe UI";
+	background-color: white;
+	width: 100%;
+	margin-left: 0px;
+	height:500px; 
+	margin-bottom: 0px;
+}
+
+#texto h2{
+
+	text-align: center;
+	color:lightseagreen;
+}
+
+.contenido{
+	width: 130px;
+	height: 500px;
+	display: inline-flex;
+    
+	margin-right: 0px;
+	margin-left: 240px;
+}
+
+.contenido img{
+	width: 100px;
+	height: 100px;
+}
+
+.contenido p{
+	float: right;
+	font-size: 24px;
+	margin-left: 20px;
+	color:black;
+	font-family: "Segoe UI";
+	font-weight:600;
+
+}
+
+.contenido ul{
+    margin-top: 60px;
+    margin-left: -140px;
+
+}
+
+.contenido li{
+    width: 200px;
+}
+
+img:hover{
+    transform:scale(1.3);
+}

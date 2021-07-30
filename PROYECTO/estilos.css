@@ -1,0 +1,181 @@
+*{
+    
+    cursor: url(img/Cursor4.PNG), auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*CUERPO DE LA PÁGINA*/
+body{
+    background-image: url(fondos/Fondo3.jpg);
+	background-color: blue;
+	/*background-image: url(img/Transporte.gif);*/
+     font-family:"Segoe UI";
+}
+
+/*EL CONTENEDOR*/
+.container{
+	width: 1100px;
+	background-color: #0db8b1;
+	margin: auto;
+	border-radius: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    height: 1100px;
+}
+
+/*IMAGEN DE FONDO DE LA CABECERA*/
+header{
+    background-image: url(fondos/Fondo6.png);
+    height: 180px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/*LOGO DE LA CABECERA*/
+#g1{
+    margin-top: 13px;
+    width: 152px;
+    height: 154px;
+    float: left;
+    margin-left: 46px;
+}
+
+/*TEXTO DE LA CABECERA*/
+header h1{
+font-size: 43px;
+text-align: center;
+margin-top: 50px;
+float:right;
+margin-right: 140px;
+margin-left: 210px;
+position: absolute;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.nav{
+    margin: auto;
+    width: 100%x;
+    padding: 0px;
+    font-family: "Segoe UI";
+}
+
+ul{
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #0db8b1;
+    color: white;
+    text-decoration: none;
+    padding: 24px 10px;
+    display: block;
+}
+
+.nav a{
+    width: 200px;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    background-color: #58D1CD;
+    box-shadow: 0 0 20px 2px #58D1CD;
+    color: black;
+}
+
+.menu > li{
+    float: left;
+}
+
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+
+
+/*CONTENIDO PARA EL TEXTO*/
+#texto{
+    margin-top: 8px;
+    font-size: 22px;
+    font-family: "Segoe UI";
+    text-align: justify;
+}
+
+#texto p{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color:black;
+}
+
+article:hover{
+ background-color: white;
+} 
+
+
+/*PARTE INFERIOR DE LA PÁGINA*/
+footer{
+    background-image: url(fondos/Fondo6.png);
+    height: 170px ;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+footer h6{
+    font-size: 17px;
+    text-align: center;
+    padding: 2px;
+    font-style: italic;
+}
+
+
+/*ANIMACIÓN DE BIENVENIDA PARA LA PÁGINA*/
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 8s infinite alternate linear;
+}
+
+.slider li{
+    width: 50%;
+    list-style: none;
+}
+
+.slider img{
+    height: 500px;
+    width: 100%;
+} 
+
+@keyframes cambio {
+    0%{ margin-left: 0; }
+    30%{margin-left: 0; }
+
+    40%{margin-left: -100%;}
+    80%{margin-left: -100%;}
+
+    95.5%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+
+/*
+    75%{margin-left: -0%;}
+    100%{margin-left: -0%;}
+*/
+}
